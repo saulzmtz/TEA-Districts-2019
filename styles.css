@@ -1,0 +1,273 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    background-color: #36a2eb;
+    color: white; 
+}
+
+.image-header {
+    padding-right: 50px; 
+}
+
+.header-text {
+    padding-top: 25px; 
+    font-size: x-large;
+}
+
+
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: visible;
+}
+
+/* Styling the Search Section */
+
+.search-section {
+    position: relative;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+.search-section input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #36a2eb;
+    color: white;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #73bef1;
+}
+
+/* Search suggestions drop down */
+/* Add to your styles.css */
+
+.input-container {
+    position: relative;
+    display: inline-block; /* Or another display type as per your design */
+    margin: 10px; 
+     
+}
+
+.suggestions {
+    position: absolute;
+    top: 35px; /* Adjust based on your input field's height */
+    left: 5px;
+    width: 200px;
+    background: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    
+     
+}
+
+
+.suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions div:hover {
+    background-color: #f4f4f4;
+}
+
+
+/* Styling the Data Display Section */
+
+
+/* Card-like sections for data display */
+.demographic-data, .student-number-charts, .economic-ebel-charts, .ratings-grades, .scores-charts, .distinctions-tables {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 10px;
+     
+}
+
+.demographic-data div, .student-number-charts div, .economic-ebel-charts div, .ratings-grades div, .scores-charts div, .distinctions-tables div {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+    transition: transform .20s ease-in-out;
+    
+}
+
+
+/* Hover Effects  */
+
+
+.demographic-data div:hover, .student-number-charts div:hover, .economic-ebel-charts div:hover, .ratings-grades div:hover, .distinctions div:hover {
+    transform: scale(1.1);
+    transition: transform .20s ease-in-out;
+}
+
+
+/* .scores-charts div:hover */
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    .demographic-data, .student-number-charts, .economic-ebel-charts, .ratings-grades, .scores-charts, .distinctions {
+        flex-direction: column;
+    }
+
+    .demographic-data div, .student-number-charts div, .economic-ebel-charts div, .ratings-grades div, .scores-charts div, .distinctions div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .search-section input[type="text"] {
+        width: 150px;
+    }
+}
+
+/* Styling for Pie Chart Container */
+.pie-charts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows the charts to wrap onto the next line if needed */
+    margin-bottom: 20px;
+}
+
+
+/* Styling for each Canvas inside the Pie Charts Container */
+.pie-charts canvas {
+    background-color: white;
+    max-width: 250px; 
+    height: 250px; 
+    display: block;
+    margin: 10px; /* Centers the chart and may help with spacing */
+}
+
+/* Styling for each school's chart container */
+.pie-charts > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows the canvases to wrap if needed */
+}
+
+
+
+
+/* .pie-charts div {
+    text-align: center;
+    margin: 10px;
+} */
+
+
+
+.number-of-students {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Style for school name */
+.school-name {
+    font-size: 2.5em; /* Larger font size */
+    color: #36a2eb; /* Matching color with the number of students */
+    font-weight: bold;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+/* Style for number of students, ensuring consistency */
+.student-count {
+    font-size: 2em;
+    color: #36a2eb;
+    font-weight: bold;
+    margin-top: -10px; /* Adjust spacing as needed */
+}
+
+
+.overall-grade {
+    font-size: 3em;
+    color: #36a2eb; /* Adjust the color to match the student count */
+    font-weight: bold;
+    margin-top:-15px; /* Adjust spacing as needed */
+}
+
+.scores-charts {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.scores-charts div {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 45%;
+    padding: 20px;
+}
+
+
+
+.distinctions-tables {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.distinctions-tables table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.distinctions-tables th, .distinctions-tables td {
+    border: 1px solid #edebeb;
+    text-align: left;
+    padding: 8px;
+}
+
+.distinctions-tables th {
+    background-color: #f4f4f4;
+}
+
+.earned {
+    background-color: rgb(189, 247, 189);
+}
+
+.not-earned {
+    background-color: rgb(250, 197, 205);
+}
+
+.hidden {
+    display: none;
+}
+
+ 
+.input-container.data-loaded {
+    margin-bottom: 50px; /* Adjust as needed for when data is displayed */
+}
