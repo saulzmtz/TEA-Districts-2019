@@ -180,12 +180,12 @@ function displayDistinctionsTable(containerId, schoolData) {
     let tableHTML = '<table><tr><th>Distinction</th><th>Status</th></tr>';
 
     const distinctions = [
-        "Distinction\nELA/Reading",
-        "Distinction\nMathematics",
-        "Distinction\nScience",
-        "Distinction\nSoc Studies",
-        "Distinction\nProgress",
-        "Distinction\nClosing the Gaps",
+        // "Distinction\nELA/Reading",
+        // "Distinction\nMathematics",
+        // "Distinction\nScience",
+        // "Distinction\nSoc Studies",
+        // "Distinction\nProgress",
+        // "Distinction\nClosing the Gaps",
         "Distinction\nPostsecondary\nReadiness"
     ];
 
