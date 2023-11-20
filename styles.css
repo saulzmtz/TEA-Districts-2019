@@ -258,11 +258,13 @@ body {
 }
 
 .earned {
-    background-color: lightgreen;
+    background-color: #7cbb00;
+    color: white; 
 }
 
 .not-earned {
-    background-color: lightpink;
+    background-color: #f65314;
+    color: white; 
 }
 
 .hidden {
