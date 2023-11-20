@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: row; 
     justify-content: center; 
-    background-color: #36a2eb;
+    background-color: #564592;
     color: white; 
 }
 
@@ -27,6 +27,7 @@ body {
 .header-text {
     padding-top: 25px; 
     font-size: x-large;
+    color: white; 
 }
 
 
@@ -58,13 +59,13 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #36a2eb;
+    background-color: #564592; 
     color: white;
     cursor: pointer;
 }
 
 .search-section button:hover {
-    background-color: #73bef1;
+    background-color: #f896d8;
 }
 
 /* Search suggestions drop down */
@@ -197,7 +198,7 @@ body {
 /* Style for school name */
 .school-name {
     font-size: 2.5em; /* Larger font size */
-    color: #36a2eb; /* Matching color with the number of students */
+    color: #564592; /* Matching color with the number of students */
     font-weight: bold;
     margin-bottom: 10px; /* Adjust spacing as needed */
 }
@@ -205,7 +206,7 @@ body {
 /* Style for number of students, ensuring consistency */
 .student-count {
     font-size: 2em;
-    color: #36a2eb;
+    color: #564592;
     font-weight: bold;
     margin-top: -10px; /* Adjust spacing as needed */
 }
@@ -213,7 +214,7 @@ body {
 
 .overall-grade {
     font-size: 3em;
-    color: #36a2eb; /* Adjust the color to match the student count */
+    color: #564592; /* Adjust the color to match the student count */
     font-weight: bold;
     margin-top:-15px; /* Adjust spacing as needed */
 }
