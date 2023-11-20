@@ -338,7 +338,7 @@ function displayDemographics(containerId, schoolData) {
 
     container.innerHTML = `
     <h3 class="school-name">${schoolData.Campus}</h3>
-    <p>District: ${schoolData.District}</p>
+    
     <p>County: ${schoolData.County}</p>
     <p>${schoolData.Region}</p>
     <p>${schoolData["School\nType"]}</p>
