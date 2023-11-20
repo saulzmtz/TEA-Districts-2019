@@ -59,14 +59,14 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #564592; 
+    background-color: #ffbb00; 
     color: white;
     cursor: pointer;
     margin-left: 20px; 
 }
 
 .search-section button:hover {
-    background-color: #f896d8;
+    background-color: #ffcf4d;
 }
 
 /* Search suggestions drop down */
@@ -199,7 +199,7 @@ body {
 /* Style for school name */
 .school-name {
     font-size: 2.5em; /* Larger font size */
-    color: #564592; /* Matching color with the number of students */
+    color: lightgray; /* Matching color with the number of students */
     font-weight: bold;
     margin-bottom: 10px; /* Adjust spacing as needed */
 }
@@ -207,15 +207,15 @@ body {
 /* Style for number of students, ensuring consistency */
 .student-count {
     font-size: 2em;
-    color: #564592;
-    font-weight: bold;
+    color: lightgrey;
+    font-weight: lighter;
     margin-top: -10px; /* Adjust spacing as needed */
 }
 
 
 .overall-grade {
     font-size: 3em;
-    color: #564592; /* Adjust the color to match the student count */
+    color: gray; /* Adjust the color to match the student count */
     font-weight: bold;
     margin-top:-15px; /* Adjust spacing as needed */
 }
@@ -258,11 +258,11 @@ body {
 }
 
 .earned {
-    background-color: rgb(189, 247, 189);
+    background-color: lightgreen;
 }
 
 .not-earned {
-    background-color: rgb(250, 197, 205);
+    background-color: lightpink;
 }
 
 .hidden {

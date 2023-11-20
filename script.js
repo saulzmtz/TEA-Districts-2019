@@ -75,7 +75,7 @@ function createPieChart(chartId, data, label) {
             datasets: [{
                 label: label,
                 data: [data, 100 - data],
-                backgroundColor: ['#564592', '#ddd'],
+                backgroundColor: ['#ffbb00', '#ddd'],
                 borderWidth: 1
             }]
         },
@@ -140,18 +140,18 @@ function createBarChart(chartId, scores) {
                 label: 'scores',
                 data: Object.values(scores),
                 backgroundColor: [
-                    '#edf67d',
-                    '#F896D8',
-                    '#CA7DF9',
-                    '#724CF9',
+                    '#00a1f1',
+                    '#7cbb00',
+                    '#ffbb00',
+                    '#f65314',
                     'rgba(255, 159, 64, 0.6)',
                     'rgba(255, 99, 132, 0.6)'
                 ],
                 borderColor: [
-                    '#edf67d',
-                    '#F896D8',
-                    '#CA7DF9',
-                    '#724CF9',
+                    '#00a1f1',
+                    '#7cbb00',
+                    '#ffbb00',
+                    '#f65314',
                     'rgba(255, 159, 64, 1)',
                     'rgba(255, 99, 132, 1)'
                 ],
