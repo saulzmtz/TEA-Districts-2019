@@ -1,4 +1,5 @@
-[
+{
+  "SCHOOLS": [
   {
     "District\nNumber": "001902",
     "District": "CAYUGA ISD",
@@ -42245,3 +42246,4 @@
     "Distinction\nPostsecondary\nReadiness": "Not Earned"
   }
 ]
+}
