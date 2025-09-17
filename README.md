@@ -1,9 +1,9 @@
-# TEA Districts 2019 - Side-by-Side Comparison Tool
+# TEA Districts 2022 - Side-by-Side Comparison Tool
 
 > A dynamic web application for comparing Texas Education Agency (TEA) district performance data with an intuitive side-by-side interface.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Application-blue)](https://saulzmtz.github.io/TEA-Districts-2019/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-green)](https://github.com/saulzmtz/TEA-Districts-2019)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Application-blue)](https://saulzmtz.github.io/TEA-Districts-2122/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-green)](https://github.com/saulzmtz/TEA-Districts-2122)
 
 ## Project Overview
 
