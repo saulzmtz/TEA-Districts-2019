@@ -103,7 +103,7 @@ The application follows a **data-first design approach**, prioritizing:
 
 **Saul Martinez**
 - GitHub: [@saulzmtz](https://github.com/saulzmtz)
-- Project Link: [https://github.com/saulzmtz/TEA-Schools-2019](https://github.com/saulzmtz/TEA-Schools-2019)
+- Project Link: [https://github.com/saulzmtz/TEA-Districts-2122](https://github.com/saulzmtz/TEA-Districts-2122)
 
 ---
 
