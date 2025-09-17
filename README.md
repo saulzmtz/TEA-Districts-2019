@@ -2,8 +2,8 @@
 
 > A dynamic web application for comparing Texas Education Agency (TEA) district performance data with an intuitive side-by-side interface.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Application-blue)](https://saulzmtz.github.io/TEA-Schools-2019/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-green)](https://github.com/saulzmtz/TEA-Schools-2019)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Application-blue)](https://saulzmtz.github.io/TEA-Districts-2019/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-green)](https://github.com/saulzmtz/TEA-Districts-2019)
 
 ## Project Overview
 
